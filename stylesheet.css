@@ -1,0 +1,313 @@
+* {
+    background-color: #edecec;
+    color: #0c2617;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    gap:1300px;
+    background-color: #0c2617;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 10;
+}
+.head i{
+    color: #f7f3f6; 
+    padding: 20px; 
+    background-color:#0c2617; 
+    margin-top: 15px;
+}
+.head button{
+    background-color:#0c2617; 
+    border: none;
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 90px;
+    background-color: #87c264;
+ position: absolute;
+    left: 0;
+    top:0;
+    z-index: 9;
+    font-weight: 600;
+}
+.nav a{
+    background-color: #87c264;
+    text-decoration: none;
+    color: #0c2617;
+    font-size: medium;
+    
+    height: 20px;
+    transition: border-bottom 0.3s ease;
+    margin-right: 10px;
+    border-bottom: 2px solid transparent; 
+}
+
+.nav a:hover{
+    border-bottom: 2px solid #0c2617;
+    
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .about-img{
+   margin-top: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+ }
+ .about img {
+    width:100%;
+    height: 350px;
+ }
+.about-cnt{
+   width:90%;
+   /* margin-top: 10px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.about-cnt h1{
+    font-size:30px;
+}
+.about button{
+    background-color: #87c264;
+    width:130px;
+    height:40px;
+    color: #f7f3f6;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.5s ease-in-out;
+    box-shadow: 2px 2px 2px #0c2617;
+    margin-bottom: 10px;
+}
+.about button:hover{
+    background-color:#0c2617;
+    color: #87c264;
+    box-shadow: 2px 2px 2px  #87c264;
+}
+.box1, .box2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box1-img img{
+    width:500px;
+    height: 300px;
+    margin-left: 150px;
+    border-radius: 20px;
+    float: left;
+}
+.box2-img img{
+    margin-right: 200px;  
+    border-radius: 20px; 
+    float: right;
+}
+.box-ct1,.box-ct2{
+    margin-bottom: 10px;
+   
+}
+.box-ct1 p ,.box-ct1 h1 ,.box-ct2 p, .box-ct2 h1{
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+
+.slogan {
+   background-color: #87c264;
+   width: 97%;
+   padding: 20px ;
+   margin-top: 40px;
+   box-shadow: 2px 2px 2px  rgb(196, 194, 194);
+   font-size: larger;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;          
+}
+.slogan h2 {
+    background-color: #87c264;   
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #87c264;
+    align-items: center;
+    padding: 20px;
+    border-end-end-radius:10px ;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    gap: 40px; 
+    width: 97%;
+    box-shadow: 2px 2px 2px  rgb(196, 194, 194);
+}
+.from, .to, .date, .submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    border-radius: 10px;
+    border : solid #87c264 2px;
+}
+.to-text, .from-text, .date-box, .submit-bt {
+    width: 150px;
+    height: 50px;
+    background-color: #edecec;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+i {
+    padding: 10px; 
+    background-color:#edecec; 
+}
+.submit-bt {
+    background-color: #0c2617;
+    color: #edecec;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+    box-shadow: 2px 2px 2px #0c2617;
+    width: 150px;
+    height: 60px;
+}
+.submit-bt:hover{
+    background-color:#edecec;
+    color: #0c2617
+}
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.f1, .f2, .f3, .f4, .f5 {
+    padding: 10px;
+    border: solid rgb(222, 220, 218) 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(204, 211, 196);
+    background-color: #87c264;
+}
+.feature i{
+    color: #0c2617;
+    background-color: #87c264;
+} 
+b {
+    padding-right: 10px;
+    background-color: #87c264;
+}
+.choose h2{
+    margin-left: 30px;
+}
+.choose-cnt{
+    margin-right:40px;
+    margin-left: 30px;
+}
+.contact{
+    width: 100%;
+    left:0;
+    right:0;
+    background-color: #0c2617;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    z-index: 10;
+
+}
+.contact h2 , .contact p{
+    background-color: #0c2617;
+    color: #87c264;
+}
+.icons {
+    display: flex;
+    gap: 20px; 
+    background-color: #0c2617;
+    margin-bottom: 10px;
+}
+.icons i {
+    background-color: #87c264;
+    color: #0c2617; 
+    padding: 10px; 
+    border-radius: 50%; 
+    height: 40px;
+    width: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; 
+}
+.icons i:hover {
+    background-color: #0c2617; 
+    color: #87c264; 
+}
+.exp{
+    background-color: #edecec;
+    color: #0c2617;
+    margin-left: 30px;
+}
+.ex_cont{
+    display: flex;
+    flex-direction: column;
+    height:250px;
+    width: 97%;
+    background-color: #87c264;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.ex_cont h1{
+    background-color: #87c264;
+    color: #0c2617;
+}
+.ex_cont1{
+    display: flex;
+    flex-direction: row;
+    background-color: #87c264;
+    justify-content: space-around;
+}
+.cont1, .cont2, .cont3, .cont4{
+    background-color: #f7f3f6;
+    color: #0c2617;
+    height:160px;
+    border-radius: 10px;
+    width:24%;
+    
+}
+.cont1 h2, .cont2 h2, .cont3 h2, .cont4 h2,.cont1 h4,.cont2 h4,.cont3 h4,.cont4 h4{
+    background-color: #f7f3f6;
+    text-align: center;
+}   
+.cont1 h2, .cont2 h2, .cont3 h2, .cont4 h2{
+   margin-top: 35px;
+}
+.kn-bt{
+    background-color: #0c2617;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    color: #f7f3f6;
+    height: 30px;
+    margin-left: 150px;
+    padding: 5px;
+
+}
